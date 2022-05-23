@@ -27,7 +27,7 @@
     * Bấm nút Space trên bàn phím hoặc nháy chuột phải để Doge nhảy.
     * Bấm nút chuột trái để Doge bắn ra đạn.
 
-* Tốc độ game tăng dần sau nhiều mức điểm để tăng độ khó cho game.
+* Tốc độ game tăng dần sau các mốc thời gian để tăng độ khó cho game.
 * Game có thể chơi lại nhiều lần với các nút bấm trên Menu
 
 ### 4. Các kĩ thuật lập trình được sử dụng
