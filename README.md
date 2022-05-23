@@ -1,4 +1,4 @@
-# Adventure_Times
+# Adventure_Time
 * Họ và tên : Phạm Hoàng
 * MSV: 21020324
 
@@ -58,7 +58,7 @@
   * Rèn được tính kiên nhẫn, cẩn thận và tìm tòi những điều mới.
 
 
-### Cảm ơn mọi người đã dành thời gian cho dự án Adventure Time.
+###    Cảm ơn mọi người đã dành thời gian cho dự án Adventure Time!!!
 
 
 
