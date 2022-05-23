@@ -33,7 +33,6 @@
 ### 4. Các kĩ thuật lập trình được sử dụng
 * Struct và Class
 * Con trỏ
-* Mảng
 * Vector
 * Xâu
 * Lập trình hướng đối tượng
