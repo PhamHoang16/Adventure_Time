@@ -12,6 +12,8 @@
 ### 1. Mô tả chung về trò chơi
 * Adventure Time là một trò chơi được viết bằng ngôn ngữ C++ và thư viện đồ hoạ SDL2.
 * Game dựa trên cách chơi của Game Dino trên Google quen thuộc với mọi người hàng ngày và có bổ sung thêm 1 vài tính năng cũng như tăng độ khó cho game.
+* ![Uploading image.png…]()
+
 
 ### 2. Hướng dẫn cài đặt
 * Bước 1: Cài đặt SDL2 vào CodeBlocks như hướng dẫn trong video https://www.youtube.com/watch?v=kxi0TMXEG3g
