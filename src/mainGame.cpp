@@ -21,15 +21,7 @@ bool MainGame::LoadBackground(){
 }
 
 
-std::vector<ThreatsObject*> MainGame::MakeThreatList()
-{
-    std::vector<ThreatsObject*> list_threats;
-
-    /*ThreatsObject* dynamic_threats= new ThreatsObject[20];
-
-    for(int i = 0; i < 20; i++)
-    {
-        ThreatsObject* p_threat = (dynamic_threats + i);
+Object* p_threat = (dynamic_threats + i);
         if(p_threat != NULL)
         {
             p_threat->LoadImg("./image/threat_level.png", g_screen);

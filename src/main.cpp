@@ -7,7 +7,7 @@
 #include "TextObject.h"
 #include "ThreatsObject.h"
 #include "ExplosionObject.h"
-//#include "mainGame.h"
+
 
 
 BaseObject g_background;
@@ -28,7 +28,7 @@ bool InitData(){              //môi trường sdl
         return false;
     }
     SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1");
-    g_window = SDL_CreateWindow("Super Dino",
+    g_window = SDL_CreateWindow("Adventure Time",
                                  SDL_WINDOWPOS_UNDEFINED,
                                   SDL_WINDOWPOS_UNDEFINED,
                                    SCREEN_WIDTH, SCREEN_HEIGHT,
@@ -139,6 +139,7 @@ std::vector<ThreatsObject*> MakeThreatList()
 
 int main(int argc, char* argv[])
 {
+    //Uint32 time_val = SDL_GetTicks() / 1000;
 
     ImpTimer fps_timer;
 
@@ -163,6 +164,7 @@ int main(int argc, char* argv[])
 
     while(!game_loop)
     {
+        //Uint32 time_val = SDL_GetTicks() / 1000;                        //game time
         while(running_menu)
         {
             while(SDL_PollEvent(&g_event) != 0)
@@ -283,6 +285,8 @@ int main(int argc, char* argv[])
         game_map.SetMap(map_data);
         game_map.DrawMap(g_screen);
 
+        Uint32 time_val = SDL_GetTicks() / 1000;                        //game time
+
 
 
         xpos = p_player.GetXpos();
@@ -341,7 +345,7 @@ int main(int argc, char* argv[])
                             {
                                 int x_pos = p_player.GetRect().x - frame_exp_width*0.2;
                                 int y_pos = p_player.GetRect().y - frame_exp_height*0.5;
-
+                                p_player.Free();
                                 exp_threat.set_frame(ex);
                                 exp_threat.SetRect(x_pos, y_pos);
                                 exp_threat.Show(g_screen);
@@ -352,19 +356,20 @@ int main(int argc, char* argv[])
                     if(num_die <= 3)
                     {
                         p_player.SetRect(0, 0);
+
                         p_player.set_comeback_time(60);
                         SDL_Delay(1000);
+
                         continue;
                     }
                     else
                     {
                         p_player.Free();
                         p_threat->Free();
-                        over.SetRect(SCREEN_WIDTH/2 - 200, 200);
+                        over.SetRect(SCREEN_WIDTH/2 - 200, 200);        //hiển thị màn hình game over
                         over.Render(g_screen, nullptr);
                         SDL_RenderPresent(g_screen);
                         SDL_Delay(2000);
-
                         running_menu = true;
                         is_quit = true;
                  }
@@ -398,7 +403,7 @@ int main(int argc, char* argv[])
 
                         SDL_Rect bRect = p_bullet->GetRect();
 
-                        //bool bCol = false;
+                        bool bCol = false;
                         if(t == 0){
                         bool bCol = SDLCommonFunc::CheckCollision(bRect, tRect);
 
@@ -436,17 +441,18 @@ int main(int argc, char* argv[])
 
 
 
-        //std::string str_time = "Time: ";
-        Uint32 time_val = SDL_GetTicks() / 1000;
-        /*Uint32 val_time = 300 - time_val;
+        std::string str_time = "Time: ";
+
+
+        Uint32 val_time = 300 - time_val;
         {
                 std::string str_val = std::to_string(val_time);
                 str_time += str_val;
 
                 time_game.SetText(str_time);
                 time_game.LoadFromRenderText(font_time, g_screen);
-                time_game.RenderText(g_screen, SCREEN_WIDTH - 200, 15);
-        }*/
+                time_game.RenderText(g_screen, SCREEN_WIDTH - 400, 15);
+        }
 
         //show score
 
@@ -491,10 +497,11 @@ int main(int argc, char* argv[])
         {
             time_one_frame = 20;
         }
-        if(time_one_frame >= 80)
+        if(time_val >= 80)
         {
             time_one_frame = 15;
         }
+        cout << time_one_frame << endl;
         if(real_imp_time < time_one_frame)
         {
             int delay_time = time_one_frame - real_imp_time;

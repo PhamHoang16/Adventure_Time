@@ -88,13 +88,13 @@
 1653063859 c:\users\dell\music\superdino\textobject.h
 	"CommonFunc.h"
 
-1653058564 source:c:\users\dell\music\superdino\src\baseobject.cpp
+1653295651 source:c:\users\dell\music\superdino\src\baseobject.cpp
 	"BaseObject.h"
 
-1653058564 c:\users\dell\music\superdino\src\baseobject.h
+1653295651 c:\users\dell\music\superdino\src\baseobject.h
 	"CommonFunc.h"
 
-1653274946 c:\users\dell\music\superdino\src\commonfunc.h
+1653295651 c:\users\dell\music\superdino\src\commonfunc.h
 	<iostream>
 	<vector>
 	<stdio.h>
@@ -105,57 +105,57 @@
 	<SDL_mixer.h>
 	<SDL_ttf.h>
 
-1653208760 source:c:\users\dell\music\superdino\src\bulletobject.cpp
+1653295651 source:c:\users\dell\music\superdino\src\bulletobject.cpp
 	"BulletObject.h"
 
-1653208746 c:\users\dell\music\superdino\src\bulletobject.h
+1653295651 c:\users\dell\music\superdino\src\bulletobject.h
 	"BaseObject.h"
 	"CommonFunc.h"
 
-1653291693 source:c:\users\dell\music\superdino\src\commonfunc.cpp
+1653295651 source:c:\users\dell\music\superdino\src\commonfunc.cpp
 	"CommonFunc.h"
 
-1653059416 source:c:\users\dell\music\superdino\src\explosionobject.cpp
+1653295480 source:c:\users\dell\music\superdino\src\explosionobject.cpp
 	"ExplosionObject.h"
 
-1653059416 c:\users\dell\music\superdino\src\explosionobject.h
+1653295651 c:\users\dell\music\superdino\src\explosionobject.h
 	"CommonFunc.h"
 	"BaseObject.h"
 
-1653287312 source:c:\users\dell\music\superdino\src\gamemap.cpp
+1653295583 source:c:\users\dell\music\superdino\src\gamemap.cpp
 	"gameMap.h"
 
-1653059209 c:\users\dell\music\superdino\src\gamemap.h
+1653295651 c:\users\dell\music\superdino\src\gamemap.h
 	"CommonFunc.h"
 	"BaseObject.h"
 	<fstream>
 
-1653059297 source:c:\users\dell\music\superdino\src\imptimer.cpp
+1653295651 source:c:\users\dell\music\superdino\src\imptimer.cpp
 	"ImpTimer.h"
 	"CommonFunc.h"
 
-1653059297 c:\users\dell\music\superdino\src\imptimer.h
+1653295480 c:\users\dell\music\superdino\src\imptimer.h
 
-1653275998 source:c:\users\dell\music\superdino\src\mainobject.cpp
+1653411703 source:c:\users\dell\music\superdino\src\mainobject.cpp
 	"mainObject.h"
 
-1653287021 c:\users\dell\music\superdino\src\mainobject.h
+1653295651 c:\users\dell\music\superdino\src\mainobject.h
 	<vector>
 	"CommonFunc.h"
 	"BaseObject.h"
 	"BulletObject.h"
 
-1653283967 source:c:\users\dell\music\superdino\src\threatsobject.cpp
+1653295651 source:c:\users\dell\music\superdino\src\threatsobject.cpp
 	"ThreatsObject.h"
 
-1653215652 c:\users\dell\music\superdino\src\threatsobject.h
+1653295651 c:\users\dell\music\superdino\src\threatsobject.h
 	"BulletObject.h"
 	"CommonFunc.h"
 	"BaseObject.h"
 	"gameMap.h"
 	"mainObject.h"
 
-1653293007 source:c:\users\dell\music\superdino\src\main.cpp
+1653412189 source:c:\users\dell\music\superdino\src\main.cpp
 	"CommonFunc.h"
 	"BaseObject.h"
 	"gameMap.h"
@@ -165,10 +165,10 @@
 	"ThreatsObject.h"
 	"ExplosionObject.h"
 
-1653196836 c:\users\dell\music\superdino\src\textobject.h
+1653295651 c:\users\dell\music\superdino\src\textobject.h
 	"CommonFunc.h"
 
-1653197142 source:c:\users\dell\music\superdino\src\textobject.cpp
+1653295651 source:c:\users\dell\music\superdino\src\textobject.cpp
 	"TextObject.h"
 
 1653226079 source:c:\users\dell\music\superdino\src\playerpower.cpp
