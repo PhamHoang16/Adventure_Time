@@ -136,10 +136,10 @@
 
 1653295480 c:\users\dell\music\superdino\src\imptimer.h
 
-1653411703 source:c:\users\dell\music\superdino\src\mainobject.cpp
+1653575641 source:c:\users\dell\music\superdino\src\mainobject.cpp
 	"mainObject.h"
 
-1653295651 c:\users\dell\music\superdino\src\mainobject.h
+1653575675 c:\users\dell\music\superdino\src\mainobject.h
 	<vector>
 	"CommonFunc.h"
 	"BaseObject.h"
@@ -155,7 +155,7 @@
 	"gameMap.h"
 	"mainObject.h"
 
-1653412189 source:c:\users\dell\music\superdino\src\main.cpp
+1653575641 source:c:\users\dell\music\superdino\src\main.cpp
 	"CommonFunc.h"
 	"BaseObject.h"
 	"gameMap.h"

@@ -221,7 +221,7 @@ int main(int argc, char* argv[])
     game_map.LoadTiles(g_screen);
 
     MainObject p_player;
-    p_player.LoadImg("./image/cheems2.png", g_screen);
+    p_player.LoadImg("./image/cheems3.png", g_screen);
     p_player.set_clip();
 
 
