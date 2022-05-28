@@ -13,6 +13,7 @@
 ## 1. Mô tả chung về trò chơi
 * Adventure Time là một trò chơi được lấy cảm hứng từ tựa game Dino kinh điển trên Google, đồng thời đã được phát triển thêm một số tính năng và tăng độ khó cho game. Đây sẽ là một trải nghiệm chơi game mới lạ nhưng đồng thời cũng khá quen thuộc với người chơi ở mọi lứa tuổi.
 * Game được xây dựng bằng ngôn ngữ lập trình C++ kết hợp với việc sử dụng các thư viện đồ hoạ **SDL2**, **SDL2 image**, **SDL2 mixer**, **SDL2 ttf**.
+* Video demo game Adventure Time: 
 
 ![](image/readme_menu.png)
 
